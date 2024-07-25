@@ -1,5 +1,5 @@
 # Forage Quantium Data Analytics Job Simulation Project
-Overview
+- Overview
 This project involved completing 3 tasks as part of Quantium's Data Analytics Virtual Project on Forage. The tasks focused on data preparation, experimentation, uplift testing, and applying analytics for commercial insights.
 
 ## Tasks Completed
@@ -32,9 +32,10 @@ Insights:
 
 ### Task 2: Experimentation and Uplift Testing
 Files: Quantium_DA_task2.ipynb, QVI_data.csv
-- Trial Stores: Three stores (77, 86, 88) tested new layouts (Feb-Apr 2019).
-- Control Stores: Identified control stores using Pearson correlations and magnitude distances.
-- Hypothesis Testing: Compared total sales and customer metrics between trial and control stores.
+Trial Stores: Three stores (77, 86, 88) tested new layouts (Feb-Apr 2019).
+Control Stores: Identified control stores using Pearson correlations and magnitude distances.
+Hypothesis Testing: Compared total sales and customer metrics between trial and control stores.
+
 Insights:
 - 1. The control stores successful reflect the performance of trial stores, instead of the average of other stores, based on the performance of total sales and number of customers.
 - 2. The results for trial stores 77 and 88 during the trial period show a significant difference in at least two of the three trial months but this is not the case for trial store 86.
@@ -56,8 +57,8 @@ Prepared a PowerPoint report summarizing key insights from Tasks 1 and 2 using t
 ## Limitation & Suggestion
 It is suggested that the stores should improve their product naming system or format to avoid statistical bias. such as naming the product name in a format like "Brand & Flavor & Product Category & Weight/Size”.
 The reasons are:
-- • The original database lack of clarification in product category. It is also not easy to tell if the
+- The original database lack of clarification in product category. It is also not easy to tell if the
 product is chips product, cheese product, or salsa product or other kinds just by looking at the
 product names. This can lead to significant bias from different kinds of misunderstanding.
-- • The brand names and product category in the current product name column are not unique. One
+- The brand names and product category in the current product name column are not unique. One
 brand has more than one brand names, and chip product has more than one category name. Without further communication with the stores, or fully understanding of products, analyst might generate analysis with bias or just inaccurate.
