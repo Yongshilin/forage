@@ -1,16 +1,16 @@
-Quantium Data Analytics Job Simulation Project
+# Forage Quantium Data Analytics Job Simulation Project
 Overview
 This project involved completing three tasks as part of Quantium's Data Analytics Virtual Project on Forage. The tasks focused on data preparation, experimentation, uplift testing, and applying analytics for commercial insights.
 
-Tasks Completed
+## Tasks Completed
 Data Preparation and Customer Analytics
 Experimentation and Uplift Testing
 Analytics and Commercial Application
-Dependencies
+## Dependencies
 Language: Python 3.8
 Packages: pandas, numpy, matplotlib, seaborn, mlxtend, datetime, scipy
-Project Overview and Task Insights
-Task 1: Data Preparation and Customer Analytics
+## Project Overview and Task Insights 
+### Task 1: Data Preparation and Customer Analytics
 Files: Quantium_DA_task1(submitted).ipynb, QVI_purchase_behaviour.csv, QVI_transaction_data.xlsx
 
 Data Cleaning: Converted date integers to datetime, removed salsas and outliers.
@@ -26,7 +26,7 @@ Insights:
 4. Top 3 sales contributing customer segments are Budget Older families, Mainstream Young Singles/Couples, and Mainstream Retirees.
 5. Factors driving sales: A) Mainstream Young Singles/Couples takes up the largest proportion of customers. B)Mainstream Young & Midage Singles and Couples are more willing to buy more packet of chips on average and pay more per chips, which is indicative of impulse buying behavior. C) Older Families & Young Families buy more chips per customer.
 
-Task 2: Experimentation and Uplift Testing
+### Task 2: Experimentation and Uplift Testing
 Files: Quantium_DA_task2.ipynb, QVI_data.csv
 
 Trial Stores: Three stores (77, 86, 88) tested new layouts (Feb-Apr 2019).
@@ -46,10 +46,11 @@ Conclusion:
 Store 77: Trial succeed, they are significantly different. The driver of change is from both increases in total sales and number of customers.
 Store 86: The number of customers is significantly higher in all three months, but sales is not. Check trial store’s trial period implementation.
 Store 88: Trial succeed. The driver of change is more from the number of customers than sales.
-Task 3: Analytics and Commercial Application
+
+### Task 3: Analytics and commercial application
 Prepared a PowerPoint report summarizing key insights from Tasks 1 and 2 using the Pyramid Principle.
 
-Limitation & Suggestion
+## Limitation & Suggestion
 It is suggested that the stores should improve their product naming system or format to avoid statistical bias. such as naming the product name in a format like "Brand & Flavor & Product Category & Weight/Size”.
 The reasons are:
 • The original database lack of clarification in product category. It is also not easy to tell if the
