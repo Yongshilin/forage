@@ -1,5 +1,5 @@
 # Forage Quantium Data Analytics Job Simulation Project
-- Overview
+- Overview:
 This project involved completing 3 tasks as part of Quantium's Data Analytics Virtual Project on Forage. The tasks focused on data preparation, experimentation, uplift testing, and applying analytics for commercial insights.
 
 ## Tasks Completed
@@ -32,9 +32,10 @@ Insights:
 
 ### Task 2: Experimentation and Uplift Testing
 Files: Quantium_DA_task2.ipynb, QVI_data.csv
-Trial Stores: Three stores (77, 86, 88) tested new layouts (Feb-Apr 2019).
-Control Stores: Identified control stores using Pearson correlations and magnitude distances.
-Hypothesis Testing: Compared total sales and customer metrics between trial and control stores.
+
+- Trial Stores: Three stores (77, 86, 88) tested new layouts (Feb-Apr 2019).
+- Control Stores: Identified control stores using Pearson correlations and magnitude distances.
+- Hypothesis Testing: Compared total sales and customer metrics between trial and control stores.
 
 Insights:
 - 1. The control stores successful reflect the performance of trial stores, instead of the average of other stores, based on the performance of total sales and number of customers.
