@@ -1,5 +1,4 @@
 # Forage Quantium Data Analytics Job Simulation Project
-- Overview:
 This project involved completing 3 tasks as part of Quantium's Data Analytics Virtual Project on Forage. The tasks focused on data preparation, experimentation, uplift testing, and applying analytics for commercial insights.
 
 ## Tasks Completed
